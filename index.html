@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--DAY 37-->
+    <!-- Button 'tag' with content as 'Click'-Event attribute is onclick- Inside the onclick attribute we spec-->
+    <!--specify what action needs to be done on click action--here we instruct to pop an alert window-->
+    <!--This is inline scripting, not recommended as it reduces the code readability--->
+     
+    <button onclick="alert('Hello')">Click</button><br><br>
+    <button onclick = "alert('This is an alert')">Click Again </button>
+    
+    <!--Internal Scripting-->
+    <script>
+        //Console is a debugging and testing code , developers use this for printing messages and errors in console
+        //Again to see the output we must go to the console, use right click inspect or F12 to check the console.
+
+        console.log('Hi i am from Internal Scripting')
+    </script>
+
+    <!-- For External scripting we need an external javascript file say index.js. Sepcify the path in src inside a script tag-->
+     <!--This is most recommended method-->
+     <!--Cosole printing help developers in coding debugging and testing by printing needed messages in console-->
+     <script src="./index.js ">
+
+     </script>
+
+
+
+
+
+</body>
+</html>
